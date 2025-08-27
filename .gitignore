@@ -1,0 +1,33 @@
+# Ignore large zip files
+/birdclef-2025.zip
+
+# Ignore large CSV files
+/CSVs/birdnet_train_labels_2ND_RUN_final.csv
+/CSVs/soundscape_predictions_non_birdnet_labels_softmax.csv
+/CSVs/soundscape_all_class_predictions.csv
+/CSVs/soundscape_predictions_summary.csv
+
+# Ignore large model files
+/models/bird_mae_classifier_sl.pt
+/models/bird_mae_classifier.pt
+
+
+# Ignore mobilenet checkpoints
+/models/training_mobilenet_checkpoints_jun13/ckpt-*.data-00000-of-00001
+
+# Ignore MAE checkpoints
+/models/MAE/bird_mae_classifier_checkpoint_*.pt
+
+# Ignore specific MAE checkpoint file
+/models/MAE/bird_mae_classifier_checkpoint_mix_14.pt
+/models/MAE/bird_mae_classifier_checkpoint_mixup_full_val_22.pt
+/models/MAE/bird_mae_classifier_checkpoint_mixup_full_val_23.pt
+/models/MAE/bird_mae_classifier_checkpoint_mixup_full_val_24.pt
+/models/MAE/bird_mae_classifier_checkpoint_mixup_full_val_25.pt
+/models/MAE/bird_mae_classifier_checkpoint_mixup_full_val_26.pt
+
+/models/MAE/bird_mae_classifier_mixup.pt
+/models/MAE/bird_mae_classifier_sl_mix.pt
+
+# Ignore bird_model variables data file
+/models/bird_model/variables/variables.data-00000-of-00001
