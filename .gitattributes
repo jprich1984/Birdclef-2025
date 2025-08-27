@@ -1,0 +1,4 @@
+models/126247/best_model_126247.keras filter=lfs diff=lfs merge=lfs -text
+models/bird-vocalization-classifier-tensorflow2-bird-vocalization-classifier-v8.tar.gz filter=lfs diff=lfs merge=lfs -text
+ColabUploads.zip filter=lfs diff=lfs merge=lfs -text
+models/MAE/bird_mae_classifier_checkpoint_mixup_full_val_27.pt filter=lfs diff=lfs merge=lfs -text
